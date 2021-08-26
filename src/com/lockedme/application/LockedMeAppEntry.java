@@ -1,4 +1,6 @@
-package com.lockedme;
+package com.lockedme.application;
+
+import com.lockedme.models.UserRegistration;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.lockedme;
+package com.lockedme.models;
 
 import java.io.File;
 import java.io.IOException;
