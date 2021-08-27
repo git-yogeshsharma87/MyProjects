@@ -1,14 +1,25 @@
 package com.lockedme.application;
 
-import com.lockedme.models.UserRegistration;
+import com.lockedme.implementation.Login;
+import com.lockedme.implementation.Signup;
 
 import java.util.Scanner;
 
 import static java.lang.Integer.parseInt;
 
 class LockedMeAppEntry {
+    private static Scanner keyInput = new Scanner(System.in);
 
     public static void main(String[] args) {
+
+        // call welcome screen
+        welcome();
+
+    }
+
+    private static void welcome() {
+
+        // This is the welcome screen of the app
 
         System.out.println("*******************************");
         System.out.println("WELCOME TO THE LOCK ME APP");
@@ -17,29 +28,18 @@ class LockedMeAppEntry {
                 "1. Enter 1 for Registration\n" +
                 "2. Enter 2 for Login");
 
-        try {
-            Scanner input = new Scanner(System.in);
-            int choice = parseInt(input.nextLine());
 
-            if(choice== 1){
-                UserRegistration.registrationInput();
-            } else if(choice == 2){
-                login();
-            } else{
-                System.out.println("Not applicable choice ! ");
-                input.close();
-            }
-            input.close();
-        } catch (NumberFormatException e) {
-            System.out.println("Oops, Looks like something went wrong, please try again");
-
-        }
-
+        int choice = keyInput.nextInt();
+        switch (choice) {
+            case 1:
+                Signup.registrationInput();
+                break;
+            case 2:
+                Login.login();
+                break;
+            default:
+                System.out.println("Not applicable choice ! Retry ");
+welcome();        }
+        keyInput.close();
     }
-
-    private static void login() {
-        System.out.println("Welcome to Login Page");
-    }
-
-
 }

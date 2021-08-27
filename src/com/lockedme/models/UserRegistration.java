@@ -6,16 +6,23 @@ import java.util.Scanner;
 
 public class UserRegistration {
 
-    String email;
-    String password;
+   private String uname;
+    private String password;
 
-
-    public String getEmail() {
-        return email;
+    public UserRegistration() {
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public UserRegistration(String uname, String password) {
+        this.uname = uname;
+        this.password = password;
+    }
+
+    public String getUname() {
+        return uname;
+    }
+
+    public void setUname(String uname) {
+        this.uname = uname;
     }
 
     public String getPassword() {
@@ -26,42 +33,13 @@ public class UserRegistration {
         this.password = password;
     }
 
-    public UserRegistration() {
+
+
+    @Override
+    public String toString() {
+        return "UserRegistration{" +
+                "uname='" + uname + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
-
-    public UserRegistration(String email, String password) {
-        this.email = email;
-        this.password = password;
-    }
-
-    public static void registrationInput(){
-        System.out.println("*******************************");
-        System.out.println("WELCOME TO NEW USER REGISTRATION");
-        System.out.println("*******************************");
-        System.out.println("Please enter username :");
-        Scanner scanner = new Scanner(System.in);
-        String username = scanner.nextLine();
-        String filename = username +".txt";
-        System.out.println("Please enter your password :");
-        Scanner scanner1 = new Scanner(System.in);
-        String password = scanner1.nextLine();
-        createFile(filename);
-    }
-
-    //create a file using File class
-    private static void createFile(String filename){
-
-        File file = new File(filename);
-        try {
-            if(file.createNewFile()){
-                System.out.println(" Registration is complete !");
-            } else {
-                System.out.println(" User already exist ! ");
-            }
-        } catch (IOException e) {
-            System.out.println(" Registration Failed !");
-                    }
-
-    }
-
 }
