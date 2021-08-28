@@ -10,7 +10,7 @@ public class Login {
     private static Scanner input;
 
 
-    public static void login() {
+    public static boolean login() {
 
         //read data from keyboard
         keyboard = new Scanner(System.in);
@@ -25,7 +25,7 @@ public class Login {
             input = new Scanner(dbFile);
         } catch (IOException e) {
             System.out.println("User doesn't exist !");
-            System.exit(409);
+            return false;
         }
         boolean found = false;
         while (input.hasNext()) {
@@ -44,7 +44,7 @@ public class Login {
             System.out.println("User Not Found : Login Failure : 404");
         }
 
-
+        return true;
     }
 
 }

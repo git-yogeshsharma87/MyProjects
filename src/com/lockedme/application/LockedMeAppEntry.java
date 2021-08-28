@@ -5,10 +5,9 @@ import com.lockedme.implementation.Signup;
 
 import java.util.Scanner;
 
-import static java.lang.Integer.parseInt;
 
 class LockedMeAppEntry {
-    private static Scanner keyInput = new Scanner(System.in);
+    private static final Scanner keyInput = new Scanner(System.in);
 
     public static void main(String[] args) {
 

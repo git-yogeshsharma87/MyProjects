@@ -1,6 +1,5 @@
 package com.lockedme.implementation;
 
-import com.lockedme.models.UserAccounts;
 import com.lockedme.models.UserRegistration;
 
 import java.io.File;
@@ -10,7 +9,7 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class Signup {
-    private static Scanner keyCred = new Scanner(System.in);
+    private static final Scanner keyCred = new Scanner(System.in);
     private static PrintWriter fileOut;
     private static UserRegistration users;
     private static Scanner input;

@@ -84,11 +84,9 @@ public class Locker {
 
         //store credentials
         public static void storeCredentials (String loggedInUser){
-            System.out.println("==========================================");
-            System.out.println("*					*");
-            System.out.println("*   WELCOME TO DIGITAL LOCKER STORE YOUR CREDS HERE	 *");
-            System.out.println("*					*");
-            System.out.println("==========================================");
+            System.out.println("*********************************");
+            System.out.println("   ENTER YOUR CREDENTIALS	 ");
+            System.out.println("*********************************");
             userAccounts = new UserAccounts();
             userAccounts.setLoggedInUser(loggedInUser);
 
@@ -109,18 +107,15 @@ public class Locker {
             lockerOutput.println(userAccounts.getUsername());
             lockerOutput.println(userAccounts.getPassword());
 
-            System.out.println("YOUR CREDS ARE STORED AND SECURED!");
+            System.out.println("YOUR CREDENTIALS ARE SAVED !");
             lockerOutput.close();
         }
 
         //fetch credentials
         public static void fetchCredentials (String inpUsername){
-            System.out.println("==========================================");
-            System.out.println("*					*");
-            System.out.println("*   WELCOME TO DIGITAL LOCKER 	 *");
-            System.out.println("*   YOUR CREDS ARE 	 *");
-            System.out.println("*					*");
-            System.out.println("==========================================");
+            System.out.println("*********************************");
+            System.out.println("  YOUR CREDENTIALS ARE 	 ");
+            System.out.println("**********************************");
             System.out.println(inpUsername);
 
 
@@ -141,7 +136,7 @@ public class Locker {
                 File lockerFile = new File(filename);
 
 
-                //out put
+                //Appending file using PrintWriter object
                 lockerOutput = new PrintWriter(new FileWriter(lockerFile, true));
 
 

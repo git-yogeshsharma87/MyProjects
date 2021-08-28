@@ -1,8 +1,6 @@
 package com.lockedme.models;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Scanner;
+
 
 public class UserRegistration {
 

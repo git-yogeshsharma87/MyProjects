@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0b85794a-0699-4591-907d-127ab2c127e9" name="Default Changelist" comment="Updated lockMe project files">
+      <change beforePath="$PROJECT_DIR$/src/com/lockedme/application/LockedMeAppEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lockedme/application/LockedMeAppEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lockedme/implementation/Locker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lockedme/implementation/Locker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lockedme/implementation/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lockedme/implementation/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lockedme/implementation/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lockedme/implementation/Signup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lockedme/models/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lockedme/models/UserRegistration.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xFWovAsYM6n6NztAZCRAdzPrAp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lockedme.exceptions.lockeme" />
+      <recent name="com.lockedme.implementation" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LockedMeAppEntry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lockedme.application.LockedMeAppEntry" />
+      <module name="LockedMe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lockedme.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LockedMeAppEntry" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b85794a-0699-4591-907d-127ab2c127e9" name="Default Changelist" comment="" />
+      <created>1629951494585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629951494585</updated>
+    </task>
+    <task id="LOCAL-00001" summary="added registration">
+      <created>1630084959242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630084959242</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated lockMe project files">
+      <created>1630135135273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630135135273</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added registration" />
+    <MESSAGE value="Updated lockMe project files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated lockMe project files" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1630117335006">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="533" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1629991175097" />
+    <state x="533" y="131" key="#com.intellij.ide.util.MemberChooser/0.23.1440.834@0.23.1440.834" timestamp="1630117335006" />
+    <state x="425" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1629990237121">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="425" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.834@0.23.1440.834" timestamp="1629990237121" />
+    <state x="466" y="302" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1630135794755">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="466" y="302" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.834@0.23.1440.834" timestamp="1630135794755" />
+    <state width="1398" height="272" key="GridCell.Tab.0.bottom" timestamp="1630136511039">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="196" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1630132540552" />
+    <state width="1398" height="272" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1630136511039" />
+    <state width="1398" height="272" key="GridCell.Tab.0.center" timestamp="1630136511038">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="196" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1630132540547" />
+    <state width="1398" height="272" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1630136511038" />
+    <state width="1398" height="272" key="GridCell.Tab.0.left" timestamp="1630136511037">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="196" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1630132540546" />
+    <state width="1398" height="272" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1630136511037" />
+    <state width="1398" height="272" key="GridCell.Tab.0.right" timestamp="1630136511038">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="196" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1630132540551" />
+    <state width="1398" height="272" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1630136511038" />
+    <state width="1398" height="192" key="GridCell.Tab.1.bottom" timestamp="1630126071636">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="192" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1630126071636" />
+    <state width="1398" height="221" key="GridCell.Tab.1.bottom/0.23.1440.834@0.23.1440.834" timestamp="1630120904737" />
+    <state width="1398" height="192" key="GridCell.Tab.1.center" timestamp="1630126071635">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="192" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1630126071635" />
+    <state width="1398" height="221" key="GridCell.Tab.1.center/0.23.1440.834@0.23.1440.834" timestamp="1630120904736" />
+    <state width="1398" height="192" key="GridCell.Tab.1.left" timestamp="1630126071634">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="192" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1630126071634" />
+    <state width="1398" height="221" key="GridCell.Tab.1.left/0.23.1440.834@0.23.1440.834" timestamp="1630120904736" />
+    <state width="1398" height="192" key="GridCell.Tab.1.right" timestamp="1630126071636">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="192" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1630126071636" />
+    <state width="1398" height="221" key="GridCell.Tab.1.right/0.23.1440.834@0.23.1440.834" timestamp="1630120904737" />
+    <state x="0" y="23" width="1440" height="834" key="SettingsEditor" timestamp="1629991063261">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="0" y="23" width="1440" height="834" key="SettingsEditor/0.23.1440.834@0.23.1440.834" timestamp="1629991063261" />
+    <state x="100" y="123" width="1240" height="634" key="ShowDiffWithBranchDialog" timestamp="1629952332587">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="100" y="123" width="1240" height="634" key="ShowDiffWithBranchDialog/0.23.1440.834@0.23.1440.834" timestamp="1629952332587" />
+    <state x="558" y="283" key="StringManipulation.Base64EncodingDialog" timestamp="1629965379870">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="558" y="283" key="StringManipulation.Base64EncodingDialog/0.23.1440.834@0.23.1440.834" timestamp="1629965379870" />
+    <state x="320" y="180" key="Vcs.Push.Dialog.v2" timestamp="1630135180463">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="320" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.834@0.23.1440.834" timestamp="1630135180463" />
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1630123413161">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1630123413161" />
+    <state x="377" y="132" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1630115451011">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="377" y="132" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.834@0.23.1440.834" timestamp="1630115451011" />
+    <state x="458" y="185" width="525" height="510" key="extract.method.dialog" timestamp="1630119561414">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="458" y="185" width="525" height="510" key="extract.method.dialog/0.23.1440.834@0.23.1440.834" timestamp="1630119561414" />
+    <state x="421" y="72" width="598" height="735" key="find.popup" timestamp="1629988872998">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="421" y="72" width="598" height="735" key="find.popup/0.23.1440.834@0.23.1440.834" timestamp="1629988872998" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lockedme/implementation/Locker.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lockedme/implementation/Locker.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lockedme/models/UserRegistration.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lockedme/implementation/Login.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/lockedme/models/UserRegistration.java</url>
+          <line>17</line>
+          <properties class="com.lockedme.models.UserRegistration" method="getUname">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/lockedme/models/UserRegistration.java</url>
+          <line>21</line>
+          <properties class="com.lockedme.models.UserRegistration" method="setUname">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/lockedme/models/UserRegistration.java</url>
+          <line>25</line>
+          <properties class="com.lockedme.models.UserRegistration" method="getPassword">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
