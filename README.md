@@ -5,11 +5,13 @@ From now on just remember one credential and leave rest on LockedMe.com.
 
 
 
-**_ flow diagram :_**
+**_flow diagram :_**
+
 ![](LockMe.svg)
 
 **User Stories :**
-I am using agile(Scrum) to develop the application in 2 sprints (2 weeks).
+
+This application has been developed leveraging the agile Scrum methodology in 2 sprints (2 weeks).
 _Sprint 1:_
 **1)** As an architect, I want to design whole solution for LockMe.com so that flow and 
 components are well-defined for development.
