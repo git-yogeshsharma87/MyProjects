@@ -26,14 +26,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b85794a-0699-4591-907d-127ab2c127e9" name="Default Changelist" comment="code refinement">
-      <change afterPath="$PROJECT_DIR$/LockMe.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LockedMe/com/lockedme/implementation/Locker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LockedMe/com/lockedme/implementation/Locker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LockedMe/com/lockedme/implementation/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LockedMe/com/lockedme/implementation/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lockedme/implementation/Locker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lockedme/implementation/Locker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lockedme/implementation/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lockedme/implementation/Login.java" afterDir="false" />
+    <list default="true" id="0b85794a-0699-4591-907d-127ab2c127e9" name="Default Changelist" comment="updated with flow diagram">
+      <change beforePath="$PROJECT_DIR$/LockMe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/LockMe.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630136615921</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated with flow diagram">
+      <created>1630192238472</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630192238472</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,7 +187,8 @@
     <MESSAGE value="added registration" />
     <MESSAGE value="Updated lockMe project files" />
     <MESSAGE value="code refinement" />
-    <option name="LAST_COMMIT_MESSAGE" value="code refinement" />
+    <MESSAGE value="updated with flow diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated with flow diagram" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1630117335006">
@@ -254,10 +256,10 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="558" y="283" key="StringManipulation.Base64EncodingDialog/0.23.1440.834@0.23.1440.834" timestamp="1629965379870" />
-    <state x="320" y="180" key="Vcs.Push.Dialog.v2" timestamp="1630136630835">
+    <state x="320" y="180" key="Vcs.Push.Dialog.v2" timestamp="1630192246864">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state x="320" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.834@0.23.1440.834" timestamp="1630136630835" />
+    <state x="320" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.834@0.23.1440.834" timestamp="1630192246864" />
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1630123413161">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
