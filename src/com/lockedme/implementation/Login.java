@@ -1,38 +1,50 @@
 package com.lockedme.implementation;
 
+
+import java.io.File;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Login {
-    private static Scanner lockerFile;
+    private static Scanner keyboard;
+    private static Scanner input;
+
 
     public static void login() {
 
+        //read data from keyboard
+        keyboard = new Scanner(System.in);
         System.out.println("*******************************");
         System.out.println("WELCOME TO LOGIN PAGE");
         System.out.println("*******************************");
         System.out.println("Please enter username :");
-        Scanner scanner = new Scanner(System.in);
-        String username = scanner.nextLine();
-        System.out.println("Please enter your password :");
-        Scanner scanner1 = new Scanner(System.in);
-        String password = scanner1.nextLine();    }
-		/*System.out.println("Enter Username :");
-    String inpUsername = keyboard.next();
-    boolean found = false;
-		while(input.hasNext() && !found) {
-        if(input.next().equals(inpUsername)) {
-            System.out.println("Enter Password :");
-            String inpPassword = keyboard.next();
-            if(input.next().equals(inpPassword)) {
-                System.out.println("Login Successful ! 200OK");
-                found = true;
-                lockerOptions(inpUsername);
-                break;
+        String inpUsername = keyboard.next();
+        File dbFile = new File(inpUsername+".txt");
+        try {
+            //read data from db file
+            input = new Scanner(dbFile);
+        } catch (IOException e) {
+            System.out.println("User doesn't exist !");
+            System.exit(409);
+        }
+        boolean found = false;
+        while (input.hasNext()) {
+            if (input.next().equals(inpUsername)) {
+                System.out.println("Enter Password :");
+                String inpPassword = keyboard.next();
+                if (input.next().equals(inpPassword)) {
+                    System.out.println("Login Successful ! 200OK");
+                    found = true;
+                    Locker.lockerOptions(inpUsername);
+                    break;
+                }
             }
         }
+        if (!found) {
+            System.out.println("User Not Found : Login Failure : 404");
+        }
+
+
     }
-		if(!found) {
-        System.out.println("User Not Found : Login Failure : 404");
-    }*/
 
 }

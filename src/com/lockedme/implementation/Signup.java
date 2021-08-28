@@ -13,8 +13,9 @@ public class Signup {
     private static Scanner keyCred = new Scanner(System.in);
     private static PrintWriter fileOut;
     private static UserRegistration users;
+    private static Scanner input;
 
-    public static void registrationInput(){
+    public static void registrationInput() {
         // Welcome page for new user registration
         System.out.println("*******************************");
         System.out.println("WELCOME TO NEW USER REGISTRATION");
@@ -22,28 +23,44 @@ public class Signup {
         System.out.println("Please enter username :");
         users = new UserRegistration();
         String name = keyCred.nextLine();
-        users.setUname(name);
+        boolean isFileCreated = fileCreation(name);
+        if(isFileCreated) {
+            users.setUname(name);
 
-        System.out.println("Please enter your password :");
-        String pass = keyCred.nextLine();
-        users.setPassword(pass);
-        fileCreation(name,pass);
-        fileOut.println(users.getUname());
-        fileOut.println(users.getPassword());
-        fileOut.close();
+            System.out.println("Please enter your password :");
+            String pass = keyCred.nextLine();
+            users.setPassword(pass);
+            fileOut.println(users.getUname());
+            fileOut.println(users.getPassword());
+            System.out.println("File Created Successfully");
+            fileOut.close();
+
+        }
     }
 
-    public static void fileCreation(String username,String password) {
-        String filename = username +".txt";
+    public static boolean fileCreation(String username) {
+        String filename = username + ".txt";
+
         try {
             File userFile = new File(filename);
-            fileOut = new PrintWriter(new FileWriter(userFile,true));
 
-        } catch (IOException e) {
-            System.out.println("File Not Found ! ");
+            if(userFile.createNewFile()) {}
+            else {
+                System.out.println("File Already exists ! Exiting .. ");
+                return false;
+            }
+            fileOut = new PrintWriter(new FileWriter(userFile,true));
+            input = new Scanner(userFile);
+
+            users = new UserRegistration();
+
         }
 
+        catch (IOException e) {
+            System.out.println("Something went wrong ! ");
+        }
 
+        return true;
 
     }
 }

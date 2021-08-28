@@ -1,10 +1,21 @@
 package com.lockedme.models;
 
 public class UserAccounts {
-   private String siteName;
+    private String siteName;
     private String username;
-   private  String password;
-   private String loggedInUser;
+    private String password;
+    private String loggedInUser;
+
+
+    public UserAccounts() {
+    }
+
+    public UserAccounts(String siteName, String username, String password, String loggedInUser) {
+        this.siteName = siteName;
+        this.username = username;
+        this.password = password;
+        this.loggedInUser = loggedInUser;
+    }
 
     public String getSiteName() {
         return siteName;
@@ -36,16 +47,6 @@ public class UserAccounts {
 
     public void setLoggedInUser(String loggedInUser) {
         this.loggedInUser = loggedInUser;
-    }
-
-    public UserAccounts(String siteName, String username, String password, String loggedInUser) {
-        this.siteName = siteName;
-        this.username = username;
-        this.password = password;
-        this.loggedInUser = loggedInUser;
-    }
-
-    public UserAccounts() {
     }
 
     @Override

@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class UserRegistration {
 
-   private String uname;
+    private String uname;
     private String password;
 
     public UserRegistration() {
@@ -32,7 +32,6 @@ public class UserRegistration {
     public void setPassword(String password) {
         this.password = password;
     }
-
 
 
     @Override
