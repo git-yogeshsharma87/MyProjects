@@ -26,12 +26,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b85794a-0699-4591-907d-127ab2c127e9" name="Default Changelist" comment="Updated lockMe project files">
-      <change beforePath="$PROJECT_DIR$/src/com/lockedme/application/LockedMeAppEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lockedme/application/LockedMeAppEntry.java" afterDir="false" />
+    <list default="true" id="0b85794a-0699-4591-907d-127ab2c127e9" name="Default Changelist" comment="code refinement">
+      <change afterPath="$PROJECT_DIR$/LockMe.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LockedMe/com/lockedme/implementation/Locker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LockedMe/com/lockedme/implementation/Locker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LockedMe/com/lockedme/implementation/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LockedMe/com/lockedme/implementation/Login.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lockedme/implementation/Locker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lockedme/implementation/Locker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lockedme/implementation/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lockedme/implementation/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lockedme/implementation/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lockedme/implementation/Signup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lockedme/models/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lockedme/models/UserRegistration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +57,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Markdown" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.lockedme.exceptions.lockeme" />
       <recent name="com.lockedme.implementation" />
@@ -107,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630135135273</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="code refinement">
+      <created>1630136615921</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630136615921</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,7 +185,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added registration" />
     <MESSAGE value="Updated lockMe project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated lockMe project files" />
+    <MESSAGE value="code refinement" />
+    <option name="LAST_COMMIT_MESSAGE" value="code refinement" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1630117335006">
@@ -188,26 +202,26 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="466" y="302" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.834@0.23.1440.834" timestamp="1630135794755" />
-    <state width="1398" height="272" key="GridCell.Tab.0.bottom" timestamp="1630136511039">
+    <state width="1398" height="173" key="GridCell.Tab.0.bottom" timestamp="1630188394530">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state width="1398" height="196" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1630132540552" />
-    <state width="1398" height="272" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1630136511039" />
-    <state width="1398" height="272" key="GridCell.Tab.0.center" timestamp="1630136511038">
+    <state width="1398" height="173" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1630188394530" />
+    <state width="1398" height="173" key="GridCell.Tab.0.center" timestamp="1630188394529">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state width="1398" height="196" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1630132540547" />
-    <state width="1398" height="272" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1630136511038" />
-    <state width="1398" height="272" key="GridCell.Tab.0.left" timestamp="1630136511037">
+    <state width="1398" height="173" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1630188394529" />
+    <state width="1398" height="173" key="GridCell.Tab.0.left" timestamp="1630188394528">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state width="1398" height="196" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1630132540546" />
-    <state width="1398" height="272" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1630136511037" />
-    <state width="1398" height="272" key="GridCell.Tab.0.right" timestamp="1630136511038">
+    <state width="1398" height="173" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1630188394528" />
+    <state width="1398" height="173" key="GridCell.Tab.0.right" timestamp="1630188394529">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state width="1398" height="196" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1630132540551" />
-    <state width="1398" height="272" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1630136511038" />
+    <state width="1398" height="173" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1630188394529" />
     <state width="1398" height="192" key="GridCell.Tab.1.bottom" timestamp="1630126071636">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -228,10 +242,10 @@
     </state>
     <state width="1398" height="192" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1630126071636" />
     <state width="1398" height="221" key="GridCell.Tab.1.right/0.23.1440.834@0.23.1440.834" timestamp="1630120904737" />
-    <state x="0" y="23" width="1440" height="834" key="SettingsEditor" timestamp="1629991063261">
+    <state x="0" y="23" width="1440" height="834" key="SettingsEditor" timestamp="1630191942012">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state x="0" y="23" width="1440" height="834" key="SettingsEditor/0.23.1440.834@0.23.1440.834" timestamp="1629991063261" />
+    <state x="0" y="23" width="1440" height="834" key="SettingsEditor/0.23.1440.834@0.23.1440.834" timestamp="1630191942012" />
     <state x="100" y="123" width="1240" height="634" key="ShowDiffWithBranchDialog" timestamp="1629952332587">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
@@ -240,10 +254,10 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="558" y="283" key="StringManipulation.Base64EncodingDialog/0.23.1440.834@0.23.1440.834" timestamp="1629965379870" />
-    <state x="320" y="180" key="Vcs.Push.Dialog.v2" timestamp="1630135180463">
+    <state x="320" y="180" key="Vcs.Push.Dialog.v2" timestamp="1630136630835">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state x="320" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.834@0.23.1440.834" timestamp="1630135180463" />
+    <state x="320" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.834@0.23.1440.834" timestamp="1630136630835" />
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1630123413161">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -266,12 +280,12 @@
       <breakpoints>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lockedme/implementation/Locker.java</url>
-          <line>121</line>
+          <line>124</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/com/lockedme/implementation/Locker.java</url>
-          <line>118</line>
+          <line>121</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

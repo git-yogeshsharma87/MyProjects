@@ -20,10 +20,13 @@ public class Locker {
         initApp(inpUsername);
         //read data from keyboard
         keyboard = new Scanner(System.in);
+        System.out.println("**************************************");
+        System.out.println("Please select an option :");
         System.out.println("1 . FETCH ALL STORED CREDENTIALS ");
         System.out.println("2 . STORE CREDENTIALS ");
         System.out.println("3 . DELETE CREDENTIALS ");
         System.out.println("4 . DELETE YOUR ACCOUNT ");
+        System.out.println("**************************************");
 
         int option = keyboard.nextInt();
         switch (option) {

@@ -33,7 +33,7 @@ public class Login {
                 System.out.println("Enter Password :");
                 String inpPassword = keyboard.next();
                 if (input.next().equals(inpPassword)) {
-                    System.out.println("Login Successful ! 200OK");
+                    System.out.println("Login Successful ! Redirecting to options ..");
                     found = true;
                     Locker.lockerOptions(inpUsername);
                     break;
@@ -41,7 +41,7 @@ public class Login {
             }
         }
         if (!found) {
-            System.out.println("User Not Found : Login Failure : 404");
+            System.out.println("Wrong credentials : Login Failure : 404");
         }
 
         return true;
