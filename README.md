@@ -1,7 +1,7 @@
 # LockedMe App
 LockMe.com is an application to securely store your credentials. Once registered, you can 
 store your credentials along with category/site details and retrieve them at any point in time.
-From now on just remember one credential and leave rest on LockedMe.com.  
+From now on just remember one credential and leave rest on LockMe.com.  
 
 
 
@@ -32,5 +32,6 @@ components are well-defined for development.
 https://github.com/git-yogeshsharma87/MyProjects.git
 
 **Future enhancements:**
-This application can be furthered as a mobile application having deep security features for users to leverage 
+
+This application can be furthered as a mobile application having right security checks for users to leverage 
 and save credentials.
